@@ -3,6 +3,9 @@ Speed up your Localization/i18n efforts by automating translation. *You might ne
 
 `en/strings.txt` --- gets translated to ---> `ur/strings.txt`
 
+The repo contains `ur/strings.txt`, the translated Urdu text as an example. 
+![Example](http://i.imgur.com/Q8zgBlx.png)
+
 **Following Folders/Files must exist**
 
 `en` or your source locale folder
@@ -25,5 +28,3 @@ Change following variables in `translate.py` according to your need
     # Put file name here
     filename = 'strings.txt'
 
-The repo contains `ur/strings.txt`, the translated Urdu text as an example. 
-![Example](http://i.imgur.com/Q8zgBlx.png)
