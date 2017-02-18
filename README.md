@@ -1,5 +1,5 @@
 # ieighteen
-Speed up your Localization/i18n efforts by automating translation. The repo contains `ur/strings.txt`, the translated Urdu text as an example. *You might need to review the translated text.* The `translate.py` script translates the file from source-locale folder to target-locale folder. E.g.
+Speed up your Localization/i18n efforts by automating translation. *You might need to proofread the translated text.* The `translate.py` script translates the file from source-locale folder to target-locale folder. E.g.
 
 `en/strings.txt` --- gets translated to ---> `ur/strings.txt`
 
@@ -24,3 +24,6 @@ Change following variables in `translate.py` according to your need
     targetLang = 'ur'
     # Put file name here
     filename = 'strings.txt'
+
+The repo contains `ur/strings.txt`, the translated Urdu text as an example. 
+![Example](http://i.imgur.com/Q8zgBlx.png)
