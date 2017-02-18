@@ -43,7 +43,7 @@ def translate(infile, outfile):
                 fout.write(outline)
 
 '''
-    Translates via google translate hack as described here
+    Translates via google translate as described here
     https://ctrlq.org/code/19909-google-translate-api
 '''
 def getTranslation(sentence):
